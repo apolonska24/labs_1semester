@@ -1,0 +1,18 @@
+#include <iostream> 
+#include <cmath> 
+using namespace std; 
+int main() { 
+     
+    int a, a1, a2, x, b; 
+    cout << "x: " << endl; 
+    cin >> x; 
+    cout << "b: " << endl; 
+    cin >> b; 
+    a1 = (2 * x - 3) * pow((7 + 12 * b), 2) + x; 
+    a2 = cos(x * sqrt(b)) - fabs(x) + log10(4 * x*x*x*x) / log10(3); 
+    a = a1 / a2; 
+    cout << a; 
+     
+    return 0; 
+     
+}
