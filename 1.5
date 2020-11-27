@@ -1,0 +1,14 @@
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int f, m, k, b; 
+    cout << "Please enter size in bytes:" << endl; 
+    cin >> f; 
+    m = f / (1024 * 1024); 
+    k = (f % (1024 * 1024)) / 1024; 
+    b = (f % (1024*1024)) % 1024; 
+    cout << m << "Mb," << k << "kB," << b << "B" << endl; 
+
+    return 0; 
+
+}
