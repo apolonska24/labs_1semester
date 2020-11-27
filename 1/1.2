@@ -1,0 +1,17 @@
+#include <iostream> 
+#define _USE_MATH_DEFINES 
+#include <cmath> 
+using namespace std; 
+int main() { 
+    int h, r; 
+    float s, a, v; 
+    cout << "Please type in the radius of the cone: " << endl; 
+    cin >> r; 
+    cout << "Please type in the height of the cone: " << endl; 
+    cin >> h;  
+    a = r * r * M_PI + M_PI * r * (sqrt(r * r + h * h)) 
+    cout << "Total surface area is " << a << endl; 
+    v = (M_PI * r * r * h) / 3; 
+    cout << "The volume of the cone is " << v << endl; 
+    return 0; 
+}
