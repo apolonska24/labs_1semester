@@ -1,0 +1,13 @@
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int given, g_hundreds, g_tens, g_ones, result; 
+    cout << "Please enter a 3-digit number:" << endl; 
+    cin >> given; 
+    g_hundreds = given / 100; 
+    g_tens = given % 100 / 10; 
+    g_ones = given % 10; 
+    result = g_ones * 100 + g_tens * 10 + g_hundreds; 
+    cout << "This number backwards is: " << result << endl; 
+    return 0; 
+}
