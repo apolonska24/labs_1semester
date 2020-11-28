@@ -3,14 +3,14 @@ This repository keeps all of my labs from the 1st semester for Algoritmization&P
 
 Languages used: C++
 
-Lab 1: linear processes
+Lab 1: linear processes (var 2)
 
-Lab 2: if-else
+Lab 2: if-else (var 2)
 
-Lab 3: while loop
+Lab 3: while loop (var 4)
 
-Lab 4: for loop
+Lab 4: for loop (var 2)
 
-Lab 5: functions
+Lab 5: functions (var 1)
 
 Lab 9 cg: OpenGL - 3d shapes
