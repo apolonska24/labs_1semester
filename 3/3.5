@@ -1,0 +1,19 @@
+#include <iostream> 
+using namespace std; 
+int main() { 
+    int n, a_2 = 1, a_1 = 1, a, i = 3; 
+    cout << "Input N" << endl; 
+    cin >> n; 
+    while (true) { 
+        a = (a_1 + a_2); 
+        a_2 = a_1; 
+        a_1 = a; 
+        if (a == n) { 
+            cout << i; return 0; 
+        } else { 
+            if (a < n) i++; 
+            else {cout << "N is not a fibonacci num" << endl; return 0;} 
+        } 
+    } 
+    return 0; 
+}
