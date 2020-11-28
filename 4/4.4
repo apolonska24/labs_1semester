@@ -1,0 +1,21 @@
+#include<iostream> 
+using namespace std; 
+int main() { 
+	double s = 0; 
+	long x1, n, fact = 1; 
+	int x; 
+	cout << "input X: "; 
+	cin >> x; 
+	cout << "input N: "; 
+	cin >> n; 
+	x1 = x; 
+	for (int i = 1, z = 1; i <= n; i += 2, z *= -1) { 
+		if (i != 1) { 
+			fact *= (i * (i - 1)); 
+		} 
+		s += (x1 / (double)fact) * z; 
+		x1 *= (x * x); 
+	} 
+	cout << "sin(x) is " << s; 
+	return 0; 
+}
