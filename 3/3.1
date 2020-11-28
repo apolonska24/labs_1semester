@@ -1,0 +1,27 @@
+#include <iostream> 
+using namespace std; 
+int main() { 
+    double a, b, c, a1, b1, n = 0; 
+    cout << "Input 2 sides of the rectangle and the side of the square" << endl; 
+    cin >> a >> b >> c; 
+    a1 = a; 
+    if (a >= c && b >= c) { 
+        while (true) { 
+            if (a1 >= c && b >= c) { 
+                n++; 
+                a1 = a1 - c; 
+            } else { 
+                if(a >= c && b >= c) { 
+                    a1 = a; 
+                    b = b - c; 
+                } else { 
+                    cout << n; 
+                    break; 
+                } 
+            } 
+        } 
+    } else { 
+        cout << "a square must be smaller than the given rectangle"; 
+    } 
+    return 0; 
+}
